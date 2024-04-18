@@ -109,6 +109,6 @@ while True:
     collisions = pygame.sprite.spritecollide(P1, all_sprites, True)
     print(SCORE2)
     for coin in collisions: 
-        SCORE2 += random.randint(1,3)
+        SCORE2 += 1
     pygame.display.update()
     time1.tick(fps)
